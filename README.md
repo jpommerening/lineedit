@@ -2,6 +2,18 @@
 
 Readline clone & Terminal emulator for your browser and node.
 
+## What?
+
+So, basically this is just a bunch of JavaScript modules that try
+to emulate basic `bash` behaviour. The Terminal part is actually
+not included yet, but will probably come later. Same goes for
+proper documentation.
+
+In the meantime, have a look at the [project site](http://jpommerening.github.io/choice)
+for my _choice_ library, especially the `plugins.js`
+[file](https://github.com/jpommerening/choice/blob/gh-pages/js/plugins.js),
+to find out how to create a Terminal with this stuff.
+
 ## [License](LICENSE-MIT)
 
 Copyright &copy; 2013 J. Pommerening.

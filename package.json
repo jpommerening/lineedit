@@ -1,0 +1,12 @@
+{
+  "name": "lineedit",
+  "version": "0.0.1",
+  "index": "lineedit.js",
+  "dependencies": {
+    "keypress": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.1"
+  }
+}

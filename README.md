@@ -1,6 +1,6 @@
 # lineedit
 
-JavaScript terminal emulator for _node_ and _jQuery_.
+Readline clone & Terminal emulator for your browser and node.
 
 ## [License](LICENSE-MIT)
 

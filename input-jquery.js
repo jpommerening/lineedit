@@ -3,9 +3,9 @@
   'use strict';
 
   if( typeof module === 'object' && typeof require === 'function' ) {
-    module.exports = definition(require('jQuery'));
+    module.exports = definition(require('jquery'));
   } else if( typeof define === 'function' && typeof define.amd === 'object' ) {
-    define(['jQuery'], definition);
+    define(['jquery'], definition);
   } else {
     var def = definition(global.jQuery), old = global[name];
     def.noConflict = function() {

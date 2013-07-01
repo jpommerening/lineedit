@@ -8,13 +8,27 @@ module.exports = function(grunt) {
         options: {
           name: '<%= pkg.name %>',
           baseUrl: '.',
-          out: 'dist/<%= pkg.name %>-jquery.js',
+          out: 'dist/<%= pkg.name %>.js',
           optimize: 'uglify2',
           generateSourceMaps: true,
           preserveLicenseComments: false,
           paths: {
             'input': 'input-jquery'
-          }
+          },
+          map: {
+            '*': { 'jquery': 'jquery-private' },
+            'jquery-private': { 'jquery': 'jquery' }
+          },
+          include: [
+            'binding',
+            'input',
+            'events',
+            'move',
+            'edit',
+            'history',
+            'kill',
+            'completion'
+          ]
         }
       }
     }
